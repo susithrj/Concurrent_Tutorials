@@ -13,13 +13,13 @@ public class TortoiseRace implements  Runnable {
         int RabbitDistance = 0;
         for (int j = 0; RabbitDistance <= 1000; j++) {
             RabbitDistance += 5;
-            System.out.println("The rabbit ran 5 meters!");
+            System.out.println("The tortoise ran 5 meters!");
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
             }
         }
-        System.out.println("The rabbit has finished the race!");
+        System.out.println("The tortoise has finished the race!");
 
     }
 }
