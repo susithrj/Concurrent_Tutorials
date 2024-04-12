@@ -17,7 +17,7 @@ package lecture7;
             TwoThreadGetName tt = new TwoThreadGetName();
             tt.start();
             for (int i = 0; i < 10; i++) {
-                tt.printMsg();
+               // tt.printMsg();
             }
         }
     }
